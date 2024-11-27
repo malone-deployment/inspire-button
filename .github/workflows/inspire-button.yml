@@ -48,9 +48,9 @@ env:
   WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }} # Workload Identity Provider
   GAR_REPOSITORY_NAME: ${{ secrets.GAR_REPOSITORY_NAME }} # Artifact Registry repository
 
-  SCULPTURE_IMAGE: "sculpture-image" # backend image name
+  SCULPTURE_IMAGE: "inspire-button-image" # backend image name
 
-  SCULPTURE_SERVICE: "sculpture-service" # Cloud Run service name
+  SCULPTURE_SERVICE: "inspire-button-service" # Cloud Run service name
 
   # POSTGRES_CLOUDSQL_INSTANCE: ${{ secrets.POSTGRES_CLOUDSQL_INSTANCE }}
   # POSTGRES_INSTANCE_UNIX_SOCKET: ${{ secrets.POSTGRES_INSTANCE_UNIX_SOCKET }}
